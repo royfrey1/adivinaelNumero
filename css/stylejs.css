@@ -1,0 +1,88 @@
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    font-family: sans-serif;
+  }
+
+  body {
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+    background-image: url(../img/joe-woods-4Zaq5xY5M_c-unsplash.jpg);
+    
+  }
+
+
+  button{
+    position: relative;
+    display: inline-block;
+    padding: 12px 36px;
+    margin: 10px 0;
+    margin: 10px 0;
+    margin-left: 31%;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    overflow: hidden;
+    background: linear-gradient(to right, rgb(47, 79, 79), #85809c86);
+  }
+
+  /* a.btn > span{
+    position: absolute;
+    background: white;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    border-radius: 50%;
+    animation: btn2 0.6s linear infinite; 
+  } */
+
+
+  /* @keyframes btn2 {
+    0%{
+      width: 0px;
+      height: 0px;
+      opacity: 0.5;
+    }
+    100%{
+      width: 500px;
+      height: 500px;
+      opacity: 0;
+    }
+  } */
+
+  .lastResult {
+    color: white;
+    padding: 3px;
+    text-align: center;
+    /* width: 20%; */
+  }
+
+  .container{
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+    border: solid darkslategray 10px;
+    box-shadow: rgba(47, 79, 79, 0.959);
+    background-color: white;
+  }
+
+  .guessSubmit{
+    background: linear-gradient(to right, rgb(47, 79, 79), #928dab); 
+    color: white;
+    width: 18%;
+    border-radius: 4px;
+    letter-spacing: 2px;
+  }
+
+  .vidas{
+    size: 28px;
+  }
